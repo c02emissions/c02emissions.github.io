@@ -118,7 +118,7 @@
       <div class="dashboard-viz">
         <div
           class="tableauPlaceholder"
-          id="viz1684469465932"
+          id="viz1684475693705"
           style="position: relative"
         >
           <noscript
@@ -133,12 +133,10 @@
               value="https%3A%2F%2Fpublic.tableau.com%2F"
             />
             <param name="embed_code_version" value="3" />
-            <param name="site_root" value="" />
             <param
-              name="name"
-              value="CO2_Project_16838983720480&#47;ConsumptionDashboard"
+              name="path"
+              value="views&#47;CO2_Project_16838983720480&#47;ConsumptionDashboard?:language=en-US&amp;:embed=true&amp;publish=yes"
             />
-            <param name="tabs" value="no" />
             <param name="toolbar" value="yes" />
             <param
               name="static_image"
@@ -154,17 +152,21 @@
           </object>
         </div>
         <script type="text/javascript">
-          var divElement = document.getElementById("viz1684469465932");
+          var divElement = document.getElementById("viz1684475693705");
           var vizElement = divElement.getElementsByTagName("object")[0];
           if (divElement.offsetWidth > 800) {
             vizElement.style.width = "1600px";
-            vizElement.style.height = "1627px";
+            vizElement.style.minHeight = "1207px";
+            vizElement.style.maxHeight = "1627px";
+            vizElement.style.height = divElement.offsetWidth * 0.75 + "px";
           } else if (divElement.offsetWidth > 500) {
             vizElement.style.width = "1600px";
-            vizElement.style.height = "1627px";
+            vizElement.style.minHeight = "1207px";
+            vizElement.style.maxHeight = "1627px";
+            vizElement.style.height = divElement.offsetWidth * 0.75 + "px";
           } else {
             vizElement.style.width = "100%";
-            vizElement.style.height = "2377px";
+            vizElement.style.height = "2027px";
           }
           var scriptElement = document.createElement("script");
           scriptElement.src =

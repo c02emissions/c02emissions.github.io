@@ -3306,7 +3306,7 @@ textarea.form-control-lg {
   --bs-dropdown-link-hover-color: #1e2125;
   --bs-dropdown-link-hover-bg: #e9ecef;
   --bs-dropdown-link-active-color: #fff;
-  --bs-dropdown-link-active-bg: #ffaa00;
+  --bs-dropdown-link-active-bg: #ffaa7f;
   --bs-dropdown-link-disabled-color: #adb5bd;
   --bs-dropdown-item-padding-x: 1rem;
   --bs-dropdown-item-padding-y: 0.25rem;
@@ -3823,6 +3823,7 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0px 8px 8px -6px rgba(0,0,0,.2);
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
 .navbar > .container,
@@ -11033,10 +11034,10 @@ body {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: #5d5d5d;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: #5d5d5d;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -11056,6 +11057,7 @@ body {
 #mainNav-shrink {
   min-height: 3.5rem;
   background-color: #fff;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,.5);
 }
 #mainNav-shrink .navbar-toggler {
   font-size: 80%;
