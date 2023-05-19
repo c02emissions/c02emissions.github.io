@@ -1,4 +1,4 @@
-# [c02emissions.github.io]("c02emissions.github.io")
+# [c02emissions.github.io](https://c02emissions.github.io/)
 
 CO2 Emmisions Data Visualization
 
